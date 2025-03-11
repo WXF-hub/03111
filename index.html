@@ -261,14 +261,14 @@
 
         // 复制进票
         copyInButton.addEventListener('click', () => {
-            const link = isAfter2110() ? '' : '\n   票👇\nhttps://wxf-hub.github.io/030999/';
+            const link = isAfter2110() ? '' : '\n   票👇\nhttps://wxf-hub.github.io/03111/';
             const text = `${currentIndex + 1}号 进  ${getCurrentTime()}占用${currentIndex + 1}🈲${link}`;
             copyToClipboard(text);
         });
 
         // 复制出票
         copyOutButton.addEventListener('click', () => {
-            const link = isAfter2110() ? '' : '\n   票👇\nhttps://wxf-hub.github.io/030999/';
+            const link = isAfter2110() ? '' : '\n   票👇\nhttps://wxf-hub.github.io/03111/';
             const text = `${currentIndex + 1}号 出  ${getCurrentTime()}释放${currentIndex + 1}✅${link}`;
             copyToClipboard(text);
         });
